@@ -18,8 +18,9 @@ public class ReportOntimeSampleWritable implements Writable {
     private int airlineId;
     private String carrier;
     private String tailNum;
-    private  int flNum;
-    private  int originAirportId;
+    private int flNum;
+    private int originAirportId;
+    private int
     private String description;
 
     @Override
