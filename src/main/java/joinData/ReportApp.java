@@ -1,3 +1,5 @@
+import org.apache.hadoop.mapred.JobConf;
+
 public class RaportApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
