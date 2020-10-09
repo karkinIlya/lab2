@@ -30,14 +30,16 @@ public class ReportOntimeSampleWritable implements Writable {
     private double cancelled;
     private String cancellationCode;
     private double airTime;
-    private double distanse;
+    private double distance;
 
     private String description;
 
     @Override
     public void write(DataOutput out) throws IOException {
-        out.writeInt(code);
-        out.writeUTF(description);
+        out.writeInt(year);
+        out.writeInt(quarter);
+        out.writeInt();
+        out.writeInt(year);
     }
 
     @Override
