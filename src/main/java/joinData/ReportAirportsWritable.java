@@ -10,7 +10,7 @@ public class ReportAirportsWritable implements Writable {
     private String description;
 
 
-    public void write(@org.jetbrains.annotations.NotNull DataOutput out) throws IOException {
+    public void write(DataOutput out) throws IOException {
         out.writeInt(code);
         out.writeUTF(description);
     }
