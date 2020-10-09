@@ -1,0 +1,16 @@
+package joinData;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.MapReduceBase;
+import org.apache.hadoop.mapred.Mapper;
+import org.apache.hadoop.mapred.join.TupleWritable;
+
+import java.io.IOException;
+
+public class ReportMapper extends MapReduceBase implements Mapper<Text, TupleWritable, Text, Text> {
+    @Override
+    public void map(Text key, TupleWritable value, OutputCollector<Text, Text> output,
+                    Report reporter) throws IOException {
+
+    }
+}
