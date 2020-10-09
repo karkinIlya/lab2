@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bae1759-36eb-4cbd-a69f-2488faaa9847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/joinData/ReportApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/ReportApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/joinData/ReportAirportsWritable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/ReportAirportsWritable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602261582743</updated>
-      <workItem from="1602261585113" duration="3008000" />
+      <workItem from="1602261585113" duration="3288000" />
     </task>
     <servers />
   </component>
@@ -91,9 +91,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="886" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1602263718971">
+    <state x="886" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1602265565887">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="886" y="131" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602263718971" />
+    <state x="886" y="131" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602265565887" />
   </component>
 </project>
