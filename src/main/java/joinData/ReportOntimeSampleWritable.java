@@ -24,7 +24,8 @@ public class ReportOntimeSampleWritable implements Writable {
     private int originCityMarketId;
     private int destAirportId;
     private int wheelsOn;
-    
+    private int arrTime;
+    private
 
     private String description;
 
