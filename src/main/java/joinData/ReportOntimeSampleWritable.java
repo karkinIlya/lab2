@@ -30,6 +30,7 @@ public class ReportOntimeSampleWritable implements Writable {
     private double cancelled;
     private String cancellationCode;
     private double airTime;
+    private double distanse;
 
     private String description;
 
