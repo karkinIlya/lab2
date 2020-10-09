@@ -80,4 +80,9 @@ public class ReportOntimeSampleWritable implements Writable {
         doubleData[3] = in.readDouble();
         doubleData[4] = in.readDouble();
     }
+
+    @Override
+    public String toString() {
+        return "Samples []";
+    }
 }

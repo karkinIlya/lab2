@@ -23,4 +23,8 @@ public class ReportAirportsWritable implements Writable {
         description = in.readUTF();
     }
 
+    @Override
+    public String toString() {
+        return "Airports [code=" + code +", description=" + description + "]";
+    }
 }
