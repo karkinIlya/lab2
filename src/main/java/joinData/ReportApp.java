@@ -1,11 +1,12 @@
 package joinData;
 
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.FileOutputFormat;
 import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.mapred.join.CompositeInputFormat;
 
-import java.nio.file.Path;
 
 public class ReportApp {
     public static void main(String[] args) throws Exception {
@@ -22,7 +23,7 @@ public class ReportApp {
                 args[0],
                 args[1]
         ));
-        conf.setMapperClass(MapJoinMapper.class);
+        conf.setMapperClass(ReportMapper.class);
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(Text.class);
         JobClient.runJob(conf);
