@@ -25,7 +25,11 @@ public class ReportOntimeSampleWritable implements Writable {
     private int destAirportId;
     private int wheelsOn;
     private int arrTime;
-    private
+    private double arrDelay;
+    private double arrDelayNew;
+    private double cancelled;
+    private String cancellationCode;
+    private double airTime;
 
     private String description;
 
