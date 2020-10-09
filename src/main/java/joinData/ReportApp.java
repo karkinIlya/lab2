@@ -1,6 +1,11 @@
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.join.CompositeInputFormat;
 
-public class RaportApp {
+import java.nio.file.Path;
+
+public class ReportApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
             System.err.println("Usage: HadoopMapReduce.WordCountApp <input path> <output path>");
@@ -19,17 +24,5 @@ public class RaportApp {
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(Text.class);
         JobClient.runJob(conf);
-
-        Job job = Job.getInstance();
-        job.setJarByClass(ReportApp.class);
-        job.setJobName("Report");
-        FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        job.setMapperClass(ReportMapper.class);
-        job.setReducerClass(ReportReducer.class);
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
-        job.setNumReduceTasks(2);
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
