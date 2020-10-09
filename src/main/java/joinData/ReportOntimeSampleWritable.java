@@ -8,7 +8,13 @@ import java.io.IOException;
 
 public class ReportOntimeSampleWritable implements Writable {
 
-    private int code;
+    private int year;
+    private int quarter;
+    private int month;
+    private int dayOfMonth;
+    private int dayOfWeek;
+    private String flDate;
+    
     private String description;
 
     @Override
