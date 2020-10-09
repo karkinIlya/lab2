@@ -20,7 +20,8 @@ public class ReportOntimeSampleWritable implements Writable {
     private String tailNum;
     private int flNum;
     private int originAirportId;
-    private int
+    private int getOriginAirportSeoId;
+    
     private String description;
 
     @Override
