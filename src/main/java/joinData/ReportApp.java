@@ -13,7 +13,7 @@ public class ReportApp {
             System.err.println("Usage: HadoopMapReduce.WordCountApp <input path> <output path>");
             System.exit(-1);
         }
-        JobConf conf = new JobConf(JoinJob.class);
+        JobConf conf = new JobConf(ReportApp.class);
         conf.setJobName("map join");
         conf.setInputFormat(CompositeInputFormat.class);
         FileOutputFormat.setOutputPath(conf, new Path(args[2]));

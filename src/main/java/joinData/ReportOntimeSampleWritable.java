@@ -41,6 +41,23 @@ public class ReportOntimeSampleWritable implements Writable {
 
     @Override
     public void write(DataOutput out) throws IOException {
+        for(int i = 0; i < 5; i++) {
+            out.writeInt(intData[i]);
+        }
+        out.writeUTF(stringData[0]);
+        out.writeUTF(stringData[1]);
+        out.writeInt(intData[5]);
+        out.writeUTF(stringData[2]);
+        out.writeUTF(stringData[3]);
+        for(int i = 0; i < 7; i++) {
+            out.writeInt(intData[i + 6]);
+        }
+        out.writeDouble(doubleData[0]);
+        out.writeDouble(doubleData[1]);
+        out.writeDouble(doubleData[2]);
+        out.writeUTF(stringData[4]);
+        out.writeDouble(doubleData[3]);
+        out.writeDouble(doubleData[4]);
     }
 
     @Override
@@ -57,7 +74,10 @@ public class ReportOntimeSampleWritable implements Writable {
             intData[i + 6] = in.readInt();
         }
         doubleData[0] = in.readDouble();
-        doubleData[0] = in.readDouble();
-        doubleData[0] = in.readDouble();
+        doubleData[1] = in.readDouble();
+        doubleData[2] = in.readDouble();
+        stringData[4] = in.readUTF();
+        doubleData[3] = in.readDouble();
+        doubleData[4] = in.readDouble();
     }
 }
