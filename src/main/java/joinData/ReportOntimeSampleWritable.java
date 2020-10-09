@@ -1,2 +1,4 @@
-package joinData;public class ReportOntimeSampleWritable {
+package joinData;
+
+public class ReportOntimeSampleWritable {
 }
