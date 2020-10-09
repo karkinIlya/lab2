@@ -1,6 +1,6 @@
 public class RaportApp {
     public static void main(String[] args) throws Exception {
-        f (args.length != 2) {
+        if (args.length != 2) {
             System.err.println("Usage: HadoopMapReduce.WordCountApp <input path> <output path>");
             System.exit(-1);
         }
