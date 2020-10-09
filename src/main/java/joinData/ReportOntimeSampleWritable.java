@@ -8,6 +8,10 @@ import java.io.IOException;
 
 public class ReportOntimeSampleWritable implements Writable {
 
+    private int[] intData = new int[13];
+    private double[] doubleData = new double[5];
+    private String[] stringData = new String[5];
+    /*
     private int year;
     private int quarter;
     private int month;
@@ -31,20 +35,29 @@ public class ReportOntimeSampleWritable implements Writable {
     private String cancellationCode;
     private double airTime;
     private double distance;
+    */
 
     private String description;
 
     @Override
     public void write(DataOutput out) throws IOException {
-        out.writeInt(year);
-        out.writeInt(quarter);
-        out.writeInt();
-        out.writeInt(year);
     }
 
     @Override
     public void readFields(DataInput in) throws  IOException {
-        code = in.readInt();
-        description = in.readUTF();
+        for(int i = 0; i < 5; i++) {
+            intData[i] = in.readInt();
+        }
+        stringData[0] = in.readUTF();
+        stringData[1] = in.readUTF();
+        intData[5] = in.readInt();
+        stringData[2] = in.readUTF();
+        stringData[3] = in.readUTF();
+        for(int i = 0; i < 7; i++) {
+            intData[i + 6] = in.readInt();
+        }
+        doubleData[0] = in.readDouble();
+        doubleData[0] = in.readDouble();
+        doubleData[0] = in.readDouble();
     }
 }
