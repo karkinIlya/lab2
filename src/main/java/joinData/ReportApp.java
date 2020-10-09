@@ -17,7 +17,7 @@ public class RaportApp {
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(Text.class);
         JobClient.runJob(conf);
-        
+
         Job job = Job.getInstance();
         job.setJarByClass(ReportApp.class);
         job.setJobName("Report");
