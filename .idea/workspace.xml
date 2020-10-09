@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -59,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602261582743</updated>
       <workItem from="1602261585113" duration="4565000" />
+      <workItem from="1602266866534" duration="66000" />
     </task>
     <servers />
   </component>
@@ -75,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1231" y="295" width="324" height="531" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1602266595042">
@@ -97,10 +102,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="983" y="303" width="819" height="514" key="NewModule_or_Project.wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1602266278275" />
-    <state x="522" y="121" width="1024" height="852" key="SettingsEditor" timestamp="1602266826915">
+    <state x="522" y="121" width="1024" height="852" key="SettingsEditor" timestamp="1602266936725">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="522" y="121" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602266826915" />
+    <state x="522" y="121" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602266936725" />
     <state x="538" y="261" width="1372" height="599" key="new project wizard" timestamp="1602265944635">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
