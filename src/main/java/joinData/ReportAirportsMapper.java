@@ -18,7 +18,7 @@ public class ReportAirportsMapper extends Mapper<LongWritable, Text, Text, Text>
         String line = value.toString();
         String[] data = line.split(",");
         for (int i = 1; i < data.length; i++) {
-
+            context.
         }
     }
 }
