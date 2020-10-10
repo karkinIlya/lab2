@@ -16,7 +16,7 @@ public class ReportDataMapper extends Mapper<LongWritable, Text, Text, Text> {
         String line = value.toString();
         String[] data = line.split(",");
         for (int i = 1; i < data.length; i++) {
-            if (data[19] != "0.00" && data[18] != "0.00") {
+            if (data[19] == "0.00" && data[18] != "0.00") {
 
             }
             context.write(new Text(data[0]), new Text("1"));
