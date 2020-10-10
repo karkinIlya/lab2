@@ -9,7 +9,7 @@ import org.apache.hadoop.mapred.join.TupleWritable;
 
 import java.io.IOException;
 
-public class ReportMapper extends MapReduceBase implements Mapper<Text, TupleWritable, Text, Text> {
+public class ReportDataMapper extends MapReduceBase implements Mapper<Text, TupleWritable, Text, Text> {
     @Override
     public void map(Text key, TupleWritable value, OutputCollector<Text, Text> output,
                     Reporter reporter) throws IOException {
