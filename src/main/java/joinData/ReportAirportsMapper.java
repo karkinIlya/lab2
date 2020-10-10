@@ -1,2 +1,4 @@
-package joinData;public class ReportAirportsMapper {
+package joinData;
+
+public class ReportAirportsMapper {
 }
