@@ -1,2 +1,4 @@
-package joinData;public class TextPair {
+package joinData;
+
+public class TextPair {
 }
