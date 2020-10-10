@@ -14,6 +14,7 @@ public class ReportAirportsMapper extends MapReduceBase implements Mapper<Text, 
     public void map(Text key, TupleWritable value, OutputCollector<Text, Text> output,
                     Reporter reporter) throws IOException {
         String line = value.toString();
-        String[] data = line.split("")
+        String[] data = line.split(",");
+        
     }
 }
