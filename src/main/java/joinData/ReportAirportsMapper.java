@@ -1,15 +1,10 @@
 package joinData;
 
-import org.apache.hadoop.io.IntWritable;
+
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.MapReduceBase;
-import org.apache.hadoop.mapred.Mapper;
-import org.apache.hadoop.mapred.OutputCollector;
-import org.apache.hadoop.mapred.Reporter;
-import org.apache.hadoop.mapred.join.TupleWritable;
+import org.apache.hadoop.mapreduce.Mapper;
 
-import javax.naming.Context;
 import java.io.IOException;
 
 public class ReportAirportsMapper extends Mapper<LongWritable, Text, Text, Text> {
@@ -18,7 +13,7 @@ public class ReportAirportsMapper extends Mapper<LongWritable, Text, Text, Text>
         String line = value.toString();
         String[] data = line.split(",");
         for (int i = 1; i < data.length; i++) {
-            context.
+            context.write(new Text(key.toString()), new Text("0"));
         }
     }
 }
