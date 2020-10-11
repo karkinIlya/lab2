@@ -1,0 +1,136 @@
+min: 11,000000	, max: 23,000000	, average: 15,400		Allentown/Bethlehem/Easton, PA: Lehigh Valley International
+min: 1,000000	, max: 126,000000	, average: 19,841		Albuquerque, NM: Albuquerque International Sunport
+min: 12,000000	, max: 34,000000	, average: 19,400		Albany, GA: Southwest Georgia Regional
+min: 4,000000	, max: 74,000000	, average: 26,222		Waco, TX: Waco Regional
+min: 11,000000	, max: 96,000000	, average: 64,667		Arcata/Eureka, CA: Arcata
+min: 1,000000	, max: 653,000000	, average: 33,399		Atlanta, GA: Hartsfield-Jackson Atlanta International
+min: 1,000000	, max: 340,000000	, average: 29,623		Austin, TX: Austin - Bergstrom International
+min: 1,000000	, max: 20,000000	, average: 11,750		Scranton/Wilkes-Barre, PA: Wilkes Barre Scranton International
+min: 1,000000	, max: 122,000000	, average: 54,625		Kalamazoo, MI: Kalamazoo/Battle Creek International
+min: 9,000000	, max: 9,000000	, average: 9,000		Bethel, AK: Bethel Airport
+min: 1,000000	, max: 154,000000	, average: 30,818		Birmingham, AL: Birmingham-Shuttlesworth International
+min: 2,000000	, max: 272,000000	, average: 44,400		Bismarck/Mandan, ND: Bismarck Municipal
+min: 3,000000	, max: 241,000000	, average: 51,833		Bloomington/Normal, IL: Central Illinois Regional
+min: 1,000000	, max: 122,000000	, average: 27,879		Boise, ID: Boise Air Terminal
+min: 14,000000	, max: 36,000000	, average: 23,500		Beaumont/Port Arthur, TX: Jack Brooks Regional
+min: 1,000000	, max: 187,000000	, average: 94,000		Brunswick, GA: Brunswick Golden Isles
+min: 6,000000	, max: 6,000000	, average: 6,000		Brainerd, MN: Brainerd Lakes Regional
+min: 9,000000	, max: 12,000000	, average: 10,500		Butte, MT: Bert Mooney
+min: 1,000000	, max: 475,000000	, average: 30,637		Baltimore, MD: Baltimore/Washington International Thurgood Marshall
+min: 1,000000	, max: 214,000000	, average: 53,727		Bozeman, MT: Bozeman Yellowstone International
+min: 1,000000	, max: 83,000000	, average: 19,762		Akron, OH: Akron-Canton Regional
+min: 1,000000	, max: 151,000000	, average: 76,000		Cordova, AK: Merle K Mudhole Smith
+min: 2,000000	, max: 124,000000	, average: 29,385		Chattanooga, TN: Lovell Field
+min: 3,000000	, max: 123,000000	, average: 45,667		Sault Ste. Marie, MI: Chippewa County International
+min: 1,000000	, max: 326,000000	, average: 39,287		Cleveland, OH: Cleveland-Hopkins International
+min: 1,000000	, max: 263,000000	, average: 25,709		Charlotte, NC: Charlotte Douglas International
+min: 1,000000	, max: 315,000000	, average: 40,427		Columbus, OH: Port Columbus International
+min: 1,000000	, max: 25,000000	, average: 9,333		Cody, WY: Yellowstone Regional
+min: 3,000000	, max: 224,000000	, average: 45,053		Colorado Springs, CO: City of Colorado Springs Municipal
+min: 19,000000	, max: 63,000000	, average: 39,750		Columbus, GA: Columbus Airport
+min: 1,000000	, max: 278,000000	, average: 27,529		Dallas, TX: Dallas Love Field
+min: 4,000000	, max: 122,000000	, average: 34,286		Durango, CO: Durango La Plata County
+min: 1,000000	, max: 514,000000	, average: 34,872		Detroit, MI: Detroit Metro Wayne County
+min: 3,000000	, max: 264,000000	, average: 110,750		Eau Claire, WI: Chippewa Valley Regional
+min: 1,000000	, max: 124,000000	, average: 42,667		Eagle, CO: Eagle County Regional
+min: 10,000000	, max: 59,000000	, average: 26,667		Elko, NV: Elko Regional
+min: 35,000000	, max: 245,000000	, average: 140,000		Escanaba, MI: Delta County
+min: 3,000000	, max: 3,000000	, average: 3,000		Key West, FL: Key West International
+min: 1,000000	, max: 127,000000	, average: 28,481		Fargo, ND: Hector International
+min: 4,000000	, max: 77,000000	, average: 26,375		Kalispell, MT: Glacier Park International
+min: 3,000000	, max: 112,000000	, average: 47,000		Flagstaff, AZ: Flagstaff Pulliam
+min: 1,000000	, max: 269,000000	, average: 32,903		Fort Lauderdale, FL: Fort Lauderdale-Hollywood International
+min: 1,000000	, max: 171,000000	, average: 46,143		Flint, MI: Bishop International
+min: 4,000000	, max: 93,000000	, average: 19,375		Fort Smith, AR: Fort Smith Regional
+min: 1,000000	, max: 117,000000	, average: 25,583		Spokane, WA: Spokane International
+min: 12,000000	, max: 92,000000	, average: 48,667		Longview, TX: East Texas Regional
+min: 1,000000	, max: 39,000000	, average: 12,750		Grand Junction, CO: Grand Junction Regional
+min: 3,000000	, max: 149,000000	, average: 42,524		Greer, SC: Greenville-Spartanburg International
+min: 1,000000	, max: 89,000000	, average: 25,500		Great Falls, MT: Great Falls International
+min: 11,000000	, max: 42,000000	, average: 26,500		Columbus, MS: Golden Triangle Regional
+min: 42,000000	, max: 154,000000	, average: 98,000		Gunnison, CO: Gunnison-Crested Butte Regional
+min: 4,000000	, max: 22,000000	, average: 13,000		Guam, TT: Guam International
+min: 2,000000	, max: 48,000000	, average: 17,667		Hayden, CO: Yampa Valley
+min: 1,000000	, max: 1013,000000	, average: 25,000		Honolulu, HI: Honolulu International
+min: 2,000000	, max: 73,000000	, average: 26,667		Hobbs, NM: Lea County Regional
+min: 1,000000	, max: 171,000000	, average: 25,875		Houston, TX: William P Hobby
+min: 1,000000	, max: 233,000000	, average: 40,893		White Plains, NY: Westchester County
+min: 26,000000	, max: 38,000000	, average: 32,000		Niagara Falls, NY: Niagara Falls International
+min: 1,000000	, max: 186,000000	, average: 51,625		Wichita, KS: Wichita Dwight D Eisenhower National
+min: 5,000000	, max: 5,000000	, average: 5,000		Wilmington, DE: New Castle
+min: 69,000000	, max: 114,000000	, average: 91,500		Iron Mountain/Kingsfd, MI: Ford
+min: 1,000000	, max: 262,000000	, average: 30,113		Indianapolis, IN: Indianapolis International
+min: 1,000000	, max: 240,000000	, average: 42,071		Islip, NY: Long Island MacArthur
+min: 1,000000	, max: 320,000000	, average: 39,348		Jackson, WY: Jackson Hole
+min: 1,000000	, max: 395,000000	, average: 37,666		New York, NY: John F. Kennedy International
+min: 12,000000	, max: 47,000000	, average: 30,333		Joplin, MO: Joplin Regional
+min: 5,000000	, max: 104,000000	, average: 55,000		Jamestown, ND: Jamestown Regional
+min: 1,000000	, max: 251,000000	, average: 29,983		Las Vegas, NV: McCarran International
+min: 1,000000	, max: 462,000000	, average: 31,754		Los Angeles, CA: Los Angeles International
+min: 2,000000	, max: 81,000000	, average: 23,852		Lubbock, TX: Lubbock Preston Smith International
+min: 2,000000	, max: 94,000000	, average: 31,250		Latrobe, PA: Arnold Palmer Regional
+min: 7,000000	, max: 43,000000	, average: 18,000		Lake Charles, LA: Lake Charles Regional
+min: 1,000000	, max: 92,000000	, average: 25,143		Lafayette, LA: Lafayette Regional Paul Fournet Field
+min: 1,000000	, max: 331,000000	, average: 39,110		New York, NY: LaGuardia
+min: 1,000000	, max: 195,000000	, average: 20,825		Lihue, HI: Lihue Airport
+min: 1,000000	, max: 153,000000	, average: 28,037		Midland/Odessa, TX: Midland International
+min: 1,000000	, max: 236,000000	, average: 28,771		Kansas City, MO: Kansas City International
+min: 1,000000	, max: 306,000000	, average: 32,022		Orlando, FL: Orlando International
+min: 1,000000	, max: 188,000000	, average: 33,980		Memphis, TN: Memphis International
+min: 3,000000	, max: 84,000000	, average: 28,500		Medford, OR: Rogue Valley International - Medford
+min: 3,000000	, max: 60,000000	, average: 27,667		Montgomery, AL: Montgomery Regional
+min: 1,000000	, max: 237,000000	, average: 30,814		Miami, FL: Miami International
+min: 1,000000	, max: 205,000000	, average: 46,750		Moline, IL: Quad City International
+min: 5,000000	, max: 100,000000	, average: 35,545		Mobile, AL: Mobile Regional
+min: 2,000000	, max: 61,000000	, average: 21,429		Minot, ND: Minot International
+min: 175,000000	, max: 175,000000	, average: 175,000		Marquette, MI: Sawyer International
+min: 4,000000	, max: 7,000000	, average: 6,000		Missoula, MT: Missoula International
+min: 1,000000	, max: 199,000000	, average: 27,721		New Orleans, LA: Louis Armstrong New Orleans International
+min: 1,000000	, max: 176,000000	, average: 29,661		Oakland, CA: Metropolitan Oakland International
+min: 1,000000	, max: 150,000000	, average: 34,492		Oklahoma City, OK: Will Rogers World
+min: 1,000000	, max: 140,000000	, average: 27,482		Omaha, NE: Eppley Airfield
+min: 8,000000	, max: 14,000000	, average: 11,000		Nome, AK: Nome Airport
+min: 1,000000	, max: 97,000000	, average: 22,783		Ontario, CA: Ontario International
+min: 1,000000	, max: 529,000000	, average: 44,913		Chicago, IL: Chicago O'Hare International
+min: 9,000000	, max: 32,000000	, average: 18,000		Plattsburgh, NY: Plattsburgh International
+min: 1,000000	, max: 141,000000	, average: 31,367		West Palm Beach/Palm Beach, FL: Palm Beach International
+min: 7,000000	, max: 16,000000	, average: 10,571		Newport News/Williamsburg, VA: Newport News/Williamsburg International
+min: 1,000000	, max: 336,000000	, average: 31,671		Philadelphia, PA: Philadelphia International
+min: 2,000000	, max: 217,000000	, average: 49,722		Peoria, IL: General Downing - Peoria International
+min: 2,000000	, max: 5,000000	, average: 3,333		Pocatello, ID: Pocatello Regional
+min: 1,000000	, max: 368,000000	, average: 30,023		Pittsburgh, PA: Pittsburgh International
+min: 1,000000	, max: 176,000000	, average: 25,571		Pensacola, FL: Pensacola International
+min: 2,000000	, max: 115,000000	, average: 45,778		Pasco/Kennewick/Richland, WA: Tri Cities
+min: 3,000000	, max: 19,000000	, average: 8,667		Petersburg, AK: Petersburg James A Johnson
+min: 3,000000	, max: 134,000000	, average: 47,500		Redding, CA: Redding Municipal
+min: 2,000000	, max: 131,000000	, average: 35,600		Bend/Redmond, OR: Roberts Field
+min: 1,000000	, max: 165,000000	, average: 28,629		Raleigh/Durham, NC: Raleigh-Durham International
+min: 7,000000	, max: 49,000000	, average: 21,667		Rhinelander, WI: Rhinelander/Oneida County
+min: 1,000000	, max: 175,000000	, average: 27,844		Richmond, VA: Richmond International
+min: 2,000000	, max: 10,000000	, average: 6,000		Roswell, NM: Roswell International Air Center
+min: 3,000000	, max: 36,000000	, average: 16,250		Santa Fe, NM: Santa Fe Municipal
+min: 1,000000	, max: 391,000000	, average: 33,534		San Antonio, TX: San Antonio International
+min: 3,000000	, max: 201,000000	, average: 32,286		Savannah, GA: Savannah/Hilton Head International
+min: 1,000000	, max: 152,000000	, average: 33,111		Santa Barbara, CA: Santa Barbara Municipal
+min: 1,000000	, max: 245,000000	, average: 63,632		South Bend, IN: South Bend International
+min: 1,000000	, max: 123,000000	, average: 25,000		San Luis Obispo, CA: San Luis County Regional
+min: 3,000000	, max: 33,000000	, average: 17,250		State College, PA: University Park
+min: 1,000000	, max: 556,000000	, average: 44,225		San Francisco, CA: San Francisco International
+min: 1,000000	, max: 63,000000	, average: 23,765		Shreveport, LA: Shreveport Regional
+min: 1,000000	, max: 209,000000	, average: 32,087		San Juan, PR: Luis Munoz Marin International
+min: 1,000000	, max: 475,000000	, average: 27,510		Salt Lake City, UT: Salt Lake City International
+min: 1,000000	, max: 127,000000	, average: 17,707		Santa Ana, CA: John Wayne Airport-Orange County
+min: 1,000000	, max: 200,000000	, average: 61,000		Wichita Falls, TX: Sheppard AFB/Wichita Falls Municipal
+min: 1,000000	, max: 178,000000	, average: 35,750		Sarasota/Bradenton, FL: Sarasota/Bradenton International
+min: 1,000000	, max: 76,000000	, average: 38,500		St. Cloud, MN: St. Cloud Regional
+min: 1,000000	, max: 167,000000	, average: 41,474		Charlotte Amalie, VI: Cyril E King
+min: 18,000000	, max: 18,000000	, average: 18,000		Sioux City, IA: Sioux Gateway/Col. Bud Day Field
+min: 4,000000	, max: 40,000000	, average: 22,600		Toledo, OH: Toledo Express
+min: 1,000000	, max: 78,000000	, average: 36,250		Bristol/Johnson City/Kingsport, TN: Tri-Cities Regional TN/VA
+min: 1,000000	, max: 112,000000	, average: 32,167		Trenton, NJ: Trenton Mercer
+min: 1,000000	, max: 140,000000	, average: 29,633		Tulsa, OK: Tulsa International
+min: 1,000000	, max: 167,000000	, average: 30,098		Tucson, AZ: Tucson International
+min: 1,000000	, max: 32,000000	, average: 12,000		Twin Falls, ID: Joslin Field - Magic Valley Regional
+min: 4,000000	, max: 149,000000	, average: 50,200		Tyler, TX: Tyler Pounds Regional
+min: 1,000000	, max: 79,000000	, average: 18,182		Valparaiso, FL: Northwest Florida Regional
+min: 1,000000	, max: 24,000000	, average: 11,250		Yuma, AZ: Yuma MCAS/Yuma International
