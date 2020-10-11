@@ -36,8 +36,7 @@ public class TextPair implements WritableComparable<TextPair> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TextPair textPair = (TextPair) o;
-        return first.equals(textPair.first) &&
-                second.equals(textPair.second);
+        return first.equals(textPair.first);
     }
 
     @Override
@@ -47,7 +46,7 @@ public class TextPair implements WritableComparable<TextPair> {
 
     @Override
     public int compareTo(TextPair o) {
-        int res = first.compareTo(o.getSecond());
+        int res = first.compareTo(o.getFirst());
         return res;
     }
 
