@@ -92,7 +92,7 @@
       <workItem from="1602261585113" duration="4565000" />
       <workItem from="1602266866534" duration="5106000" />
       <workItem from="1602336937535" duration="5543000" />
-      <workItem from="1602405092689" duration="16876000" />
+      <workItem from="1602405092689" duration="17080000" />
     </task>
     <servers />
   </component>
@@ -112,6 +112,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="479" y="94" width="1024" height="852" key="#Project_Structure" timestamp="1602422097564">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="94" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1602422097564" />
     <state x="500" y="265" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1602420878673">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
