@@ -2,6 +2,7 @@ package joinData;
 
 
 import jdk.nashorn.internal.objects.annotations.Constructor;
+import org.apache.hadoop.io.RawComparator;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
@@ -12,7 +13,7 @@ public class TextPair implements WritableComparable<TextPair> {
     public TextPair() {
 
     }
-    
+
     public TextPair(String first, String second) {
         this.first = first;
         this.second = second;
@@ -28,6 +29,8 @@ public class TextPair implements WritableComparable<TextPair> {
     public String getSecond() {
         return second;
     }
+
+
 
     @Override
     public int compareTo(TextPair o) {
@@ -45,6 +48,9 @@ public class TextPair implements WritableComparable<TextPair> {
     public void readFields(DataInput dataInput) throws IOException {
         first = dataInput.readUTF();
         second = dataInput.readUTF();
+    }
+
+    class FirstComparator extends RawComparator<TextPair> {
     }
 
 }

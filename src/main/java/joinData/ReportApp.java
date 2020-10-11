@@ -2,6 +2,7 @@ package joinData;
 
 
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.RawComparator;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
@@ -17,6 +18,7 @@ public class ReportApp {
 
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, ReportAirportsMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, ReportDataMapper.class);
+        job.setGroupingComparatorClass(TextPair.FirstComparator.class);
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setMapOutputKeyClass(TextPair.class);
