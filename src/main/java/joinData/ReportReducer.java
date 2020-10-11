@@ -10,7 +10,8 @@ import java.util.Iterator;
 public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
     protected void reduce(TextPair key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iter = values.iterator();
-        int min = -1, max = 0, sum = 0, count = 0;
+        float min = -1, max = 0, sum = 0;
+        int count = 0;
         while (iter.hasNext()) {
             String call = iter.next().toString();
             int cur = Integer.parseInt(call);
@@ -24,8 +25,7 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
             }
 
         }
-        Text outValue = new Text("min: " + Integer.toString(min) + "\t" + "max: " + Integer.toString(max) +
-                "\t" + "average: " + Integer.toString(sum / count));
+        Text outValue = new Text("min: " + min + "\t" + "max: " + max + "\t" + "average: " + sum / count);
         context.write(new Text(key.getFirst()), outValue);
     }
 

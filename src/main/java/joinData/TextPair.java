@@ -31,8 +31,7 @@ public class TextPair implements WritableComparable<TextPair> {
 
     @Override
     public int compareTo(TextPair o) {
-        int res = first.compareTo(o.getSecond());
-        return res == 0 ? second.compareTo(o.getSecond()) : res;
+        return first.equals(o.getSecond()) ? second.compareTo(o.getSecond()) : 
     }
 
     @Override

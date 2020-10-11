@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bae1759-36eb-4cbd-a69f-2488faaa9847" name="Default Changelist" comment="" />
+    <list default="true" id="0bae1759-36eb-4cbd-a69f-2488faaa9847" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/joinData/ReportReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/ReportReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/joinData/TextPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/TextPair.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +90,7 @@
       <workItem from="1602261585113" duration="4565000" />
       <workItem from="1602266866534" duration="5106000" />
       <workItem from="1602336937535" duration="5543000" />
-      <workItem from="1602405092689" duration="7037000" />
+      <workItem from="1602405092689" duration="7504000" />
     </task>
     <servers />
   </component>
