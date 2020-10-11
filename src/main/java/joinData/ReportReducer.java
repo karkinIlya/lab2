@@ -28,7 +28,7 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
             }
 
         }
-        Text outValue = new Text(String.format("min: %f\t, max: %f\t, average: %.3f\t", min, max, sum / count));
+        Text outValue = new Text(String.format("min: %.3f\t max: %.3f\t average: %.3f\t", min, max, sum / count));
         context.write(outValue, new Text(sys));
     }
 
