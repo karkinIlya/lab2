@@ -30,7 +30,9 @@ public class TextPair implements WritableComparable<TextPair> {
         return second;
     }
 
-
+    public int hashCode() {
+        return Integer.parseInt(first);
+    }
 
     @Override
     public int compareTo(TextPair o) {
@@ -51,6 +53,10 @@ public class TextPair implements WritableComparable<TextPair> {
     }
 
     class FirstComparator extends RawComparator<TextPair> {
+        @Override
+        public int compare(byte[] bytes, int i, int i1, byte[] bytes1, int i2, int i3) {
+            return 0;
+        }
     }
 
 }
