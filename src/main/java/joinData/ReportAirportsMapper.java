@@ -13,7 +13,7 @@ public class ReportAirportsMapper extends Mapper<LongWritable, Text, TextPair, T
         String line = value.toString();
         String[] data = line.split(",");
         for (int i = 0; i < data.length; i++) {
-            if (data[0] != "Code") {
+            if (!data[0].equals("Code")) {
                 String tmp = data[0].replace("\"", "");
                 context.write(new TextPair(tmp, "0"), new Text(tmp));
             }
