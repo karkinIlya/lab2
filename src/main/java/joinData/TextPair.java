@@ -36,7 +36,7 @@ public class TextPair implements WritableComparable<TextPair> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TextPair textPair = (TextPair) o;
-        return first.equals(textPair.first);
+        return first.equals(textPair.first) && second.equals(textPair.getSecond());
     }
 
     @Override

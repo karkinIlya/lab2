@@ -13,6 +13,8 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
         System.out.println("        ------------- reducer -----------\nkey: " + key.getFirst() + " " + key.getSecond());
         String sys = iter.next().toString();
         System.out.println(sys);
+        if (!iter.hasNext())
+            return;
         float min = -1, max = 0, sum = 0;
         int count = 0;
         while (iter.hasNext()) {
