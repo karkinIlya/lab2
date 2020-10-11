@@ -12,7 +12,7 @@ public class TextPair implements WritableComparable<TextPair> {
     public TextPair() {
 
     }
-
+    
     public TextPair(String first, String second) {
         this.first = first;
         this.second = second;
@@ -31,7 +31,8 @@ public class TextPair implements WritableComparable<TextPair> {
 
     @Override
     public int compareTo(TextPair o) {
-        return first.equals(o.getSecond()) ? second.compareTo(o.getSecond()) : 
+        int res = first.compareTo(o.getSecond());
+        return res == 0 ? second.compareTo(o.getSecond()) : res;
     }
 
     @Override
