@@ -8,6 +8,7 @@ import org.apache.hadoop.io.WritableComparable;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
+import java.util.Objects;
 
 public class TextPair implements WritableComparable<TextPair> {
     public TextPair() {
@@ -30,8 +31,18 @@ public class TextPair implements WritableComparable<TextPair> {
         return second;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TextPair textPair = (TextPair) o;
+        return first.equals(textPair.first) &&
+                second.equals(textPair.second);
+    }
+
+    @Override
     public int hashCode() {
-        return (first.hashCode() & Integer.MAX_VALUE);
+        return Objects.hash(first);
     }
 
     @Override
