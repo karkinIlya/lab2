@@ -94,7 +94,7 @@
       <workItem from="1602261585113" duration="4565000" />
       <workItem from="1602266866534" duration="5106000" />
       <workItem from="1602336937535" duration="5543000" />
-      <workItem from="1602405092689" duration="9398000" />
+      <workItem from="1602405092689" duration="9765000" />
     </task>
     <servers />
   </component>
@@ -114,14 +114,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="265" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1602414334470">
+    <state x="500" y="265" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1602414563016">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="500" y="265" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1602414334470" />
+    <state x="500" y="265" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1602414563016" />
     <state x="1231" y="295" width="324" height="531" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1602266595042">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1231" y="295" width="324" height="531" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602266595042" />
+    <state x="729" y="265" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602414501292">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="729" y="265" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602414501292" />
     <state x="1131" y="315" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1602266066585">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
