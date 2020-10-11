@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bae1759-36eb-4cbd-a69f-2488faaa9847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/joinData/ReportAirportsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/ReportAirportsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/joinData/ReportDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/ReportDataMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/joinData/TextPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/joinData/TextPair.java" afterDir="false" />
     </list>

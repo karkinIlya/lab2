@@ -1,6 +1,8 @@
 package joinData;
 
-public class TextPair {
+import org.apache.hadoop.io.WritableComparable;
+
+public class TextPair implements WritableComparable {
     public TextPair(String first, String second) {
         this.first = first;
         this.second = second;
