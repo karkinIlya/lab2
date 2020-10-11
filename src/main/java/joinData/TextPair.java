@@ -1,7 +1,7 @@
 package joinData;
 
+
 import org.apache.hadoop.io.WritableComparable;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -42,8 +42,4 @@ public class TextPair implements WritableComparable {
         second = dataInput.readUTF();
     }
 
-    @Override
-    public int compareTo(@NotNull Object o) {
-        return 0;
-    }
 }
