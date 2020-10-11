@@ -1,4 +1,7 @@
 package joinData;
 
-public class FirstPartitioner {
+import org.apache.hadoop.mapred.Partitioner;
+
+public class FirstPartitioner extends Partitioner<TextPair, TextPair> {
+
 }
