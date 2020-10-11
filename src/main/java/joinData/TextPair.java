@@ -52,11 +52,8 @@ public class TextPair implements WritableComparable<TextPair> {
         second = dataInput.readUTF();
     }
 
-    class FirstComparator implements RawComparator<TextPair> {
-        @Override
-        public int compare(byte[] bytes, int i, int i1, byte[] bytes1, int i2, int i3) {
-            return 0;
-        }
+    class FirstComparator extends RawComparator<TextPair> {
+
     }
 
 }
