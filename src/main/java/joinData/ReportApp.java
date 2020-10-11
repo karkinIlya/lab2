@@ -20,6 +20,7 @@ public class ReportApp {
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setMapOutputKeyClass(TextPair.class);
+        job.setMapOutputValueClass(Text.class);
 
         job.setReducerClass(ReportReducer.class);
         job.setOutputKeyClass(Text.class);
