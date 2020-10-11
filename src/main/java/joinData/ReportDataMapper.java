@@ -15,11 +15,10 @@ public class ReportDataMapper extends Mapper<LongWritable, Text, TextPair, Text>
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         String[] data = line.split(",");
-
-        System.out.println("              map data        " + " " + data[14] + " " + data[18]);
         if (data[19].equals("0.00") && !data[18].equals("0.00")) {
-            context.write(new TextPair(data[14].replace("\"", ""), "1"),
-                    new Text(data[18].replace("\"", "")));
+            System.out.println("              map data        " + " " + data[14] + " " + data[18]);
+            context.write(new TextPair(data[14].substring(1, data[14].length() - 1), "1"),
+                    new Text(data[18].substring(1, data[18].length() - 1)));
         }
     }
 }
