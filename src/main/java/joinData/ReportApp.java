@@ -19,6 +19,7 @@ public class ReportApp {
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, ReportDataMapper.class);
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
+        job.setMapOutputKeyClass(TextPair.class);
 
         job.setReducerClass(ReportReducer.class);
         job.setOutputKeyClass(Text.class);
