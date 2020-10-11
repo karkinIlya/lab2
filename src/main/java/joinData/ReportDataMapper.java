@@ -15,8 +15,9 @@ public class ReportDataMapper extends Mapper<LongWritable, Text, TextPair, Text>
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         String[] data = line.split(",");
+
+        System.out.println("              map data        " + " " + data[14] + " " + data[18]);
         if (data[19] == "0.00" && data[18] != "0.00") {
-            System.out.println("              map data        " + " " + data[14] + " " + data[18]);
             context.write(new TextPair(data[14].replace("\"", ""), "1"),
                     new Text(data[18].replace("\"", "")));
         }
