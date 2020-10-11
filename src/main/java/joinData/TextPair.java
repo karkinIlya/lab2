@@ -31,7 +31,7 @@ public class TextPair implements WritableComparable<TextPair> {
     }
 
     public int hashCode() {
-        return Integer.parseInt(first);
+        return (first.hashCode() & Integer.MAX_VALUE);
     }
 
     @Override
