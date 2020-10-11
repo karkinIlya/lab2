@@ -31,7 +31,7 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
 
         }
         Text outValue = new Text("min: " + min + "\t" + "max: " + max + "\t" + "average: " + sum / count);
-        context.write(new Text(key.getFirst()), outValue);
+        context.write(new Text(sys), outValue);
     }
 
 }
