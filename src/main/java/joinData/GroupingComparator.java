@@ -1,6 +1,8 @@
 package joinData;
 
-public class GroupingComparator extends TextPair {
+import org.apache.hadoop.io.RawComparator;
+
+public class GroupingComparator extends TextPair implements RawComparator<TextPair> {
     public GroupingComparator() {
     }
 }
