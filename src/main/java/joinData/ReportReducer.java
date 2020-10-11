@@ -10,12 +10,12 @@ import java.util.Iterator;
 public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
     protected void reduce(TextPair key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iter = values.iterator();
-        System.out.println("        ------------- reducer -----------");
-        String sys = iter.next().toString();
-        System.out.println(sys);
-        if (!sys.equals("airport")) {
-            return;
-        }
+        System.out.println("        ------------- reducer -----------\nkey: " + key.getFirst() + " " + key.getSecond());
+//        String sys = iter.next().toString();
+//        System.out.println(sys);
+//        if (!sys.equals("airport")) {
+//            return;
+//        }
         float min = -1, max = 0, sum = 0;
         int count = 0;
         while (iter.hasNext()) {
@@ -33,7 +33,6 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
             }
 
         }
-        System.out.println(key.getFirst());
         Text outValue = new Text("min: " + min + "\t" + "max: " + max + "\t" + "average: " + sum / count);
         context.write(new Text(key.getFirst()), outValue);
     }
