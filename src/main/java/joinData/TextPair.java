@@ -13,8 +13,8 @@ public class TextPair implements WritableComparable {
         this.second = second;
     }
 
-    private final String first;
-    private final String second;
+    private String first;
+    private String second;
 
     public String getFirst() {
         return first;
@@ -26,8 +26,6 @@ public class TextPair implements WritableComparable {
 
     @Override
     public int compareTo(@NotNull TextPair o) {
-        int res = first.compareTo(o.getSecond());
-        return res == 0 ? second.compareTo(o.getSecond()) : res;
     }
 
     @Override
@@ -38,6 +36,12 @@ public class TextPair implements WritableComparable {
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
+        first = dataInput.readUTF();
+        second = dataInput.readUTF();
+    }
 
+    @Override
+    public int compareTo(@NotNull Object o) {
+        return 0;
     }
 }
