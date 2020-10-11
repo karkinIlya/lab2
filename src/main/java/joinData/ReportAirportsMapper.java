@@ -14,7 +14,7 @@ public class ReportAirportsMapper extends Mapper<LongWritable, Text, TextPair, T
         String[] data = line.split(",\"");
         if (!data[0].equals("Code")) {
             String tmp = data[0].replace("\"", "");
-//            System.out.println("              mapairports        " + " " + tmp);
+            System.out.println("              mapairports        " + " " + tmp);
             context.write(new TextPair(tmp, "0"), new Text(data[1]));
         }
     }
