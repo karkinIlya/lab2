@@ -52,8 +52,7 @@ public class TextPair implements WritableComparable<TextPair> {
         second = dataInput.readUTF();
     }
 
-    class FirstComparator extends RawComparator<TextPair> {
+    class FirstComparator extends WritableComparable<TextPair> {
 
     }
-
 }
