@@ -12,7 +12,7 @@ public class TextPair implements WritableComparable<TextPair> {
     public TextPair() {
 
     }
-    
+
     public TextPair(String first, String second) {
         this.first = first;
         this.second = second;
