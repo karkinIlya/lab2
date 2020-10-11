@@ -13,7 +13,7 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
         int min = -1, max = 0, sum = 0, count = 0;
         while (iter.hasNext()) {
             String call = iter.next().toString();
-            int cur = Integer.parseInt(call.substring(1, call.length() - 1));
+            int cur = Integer.parseInt(call);
             sum += cur;
             count++;
             max = max >= cur ? max : cur;
