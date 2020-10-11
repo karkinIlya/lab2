@@ -12,8 +12,8 @@ public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
         Iterator<Text> iter = values.iterator();
         int min = -1, max = 0, sum = 0, count = 0;
         while (iter.hasNext()) {
-            Text call = iter.next();
-            int cur = Integer.parseInt(call.toString());
+            String call = iter.next().toString();
+            int cur = Integer.parseInt(call.substring(1, call.length() - 1));
             sum += cur;
             count++;
             max = max >= cur ? max : cur;
