@@ -10,9 +10,7 @@ import java.util.Iterator;
 public class ReportReducer extends Reducer<TextPair, Text, Text, Text> {
     protected void reduce(TextPair key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iter = values.iterator();
-        System.out.println("        ------------- reducer -----------\nkey: " + key.getFirst() + " " + key.getSecond());
         String sys = iter.next().toString();
-        System.out.println(sys);
         if (!iter.hasNext())
             return;
         float min = -1, max = 0, sum = 0;
