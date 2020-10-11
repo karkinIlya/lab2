@@ -11,9 +11,9 @@ public class ReportAirportsMapper extends Mapper<LongWritable, Text, TextPair, T
     @Override
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
-        String[] data = line.split(",");
+        String[] data = line.split("\",");
         if (!data[0].equals("Code")) {
-            String tmp = data[0].replace("\"", "");
+            String tmp = data[0];
             System.out.println("              mapairports        " + " " + tmp);
             context.write(new TextPair(tmp, "0"), new Text(data[1]));
         }
